@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1366px;
+    max-height: 750px;
+}
+.parent-nav{
+    width: 66%;
+    max-width: 906px;
+    margin: 0 auto;
+}
+.child-about{
+    text-align: right;
+}
+.child-about h1{
+   font-size: 55px;
+   font-weight: bold;
+   padding-top: 220px;
+}
+.child-about p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #444343;
+    width: 420px;
+    margin-left:auto ;
+    margin-top: 24px;
+}
+.child-about .btn{
+padding: 20px 19px  24px 25px;
+background-color: #F15B22;
+width: 160px;
+height: 64px;
+border-radius: 5px;
+border: none;
+font-size: 20px;
+font-weight: 600;
+color: #FFFFFF;
+margin: 32px 0 38px 0;
+}
