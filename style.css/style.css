@@ -91,3 +91,40 @@ margin: 32px 0 38px 0;
     height: 20px;
     margin-top: 10px;
 }
+
+.plan-main-parent h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 110px;
+}
+.plan-parent{
+    width: 66%;
+    max-width: 906px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-child{
+    text-align: center; 
+    margin-top: 50px;
+}
+.plan-child img{
+    width: 70px;
+    height: 70px;
+    fill: #FFFFFF;
+    color: #000000;
+}
+.plan-child h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #151414;
+    margin-top: 10px;
+}
+.plan-child p{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #737272;
+    margin-top: 10px;
+}
