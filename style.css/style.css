@@ -155,4 +155,72 @@ margin: 32px 0 38px 0;
     background-color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+.main-footer{
+    background-color: #151414;
+}
+.footer-parent{
+    width: 66%;
+    max-width: 906px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 331px;
+}
+.footer-child h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-top: 118px;
+}
+.footer-child p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.footer-child address{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.footer-child img{
+    color: #006AFF;
+    margin-top: 32px;
+    margin-right: 17px;
+    margin-bottom: 140px;
+    cursor: pointer;
+}
+.footer-child h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-child input{
+    font-size: 13px;
+    color: #F3F3F3;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #000000;
+    background: transparent;
+    margin-bottom: 16px;
+}
+.footer-child button{
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.footer-child button:hover{
+color: #000000;
 }
